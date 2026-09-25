@@ -1,0 +1,12 @@
+import type { Metadata } from "next";
+import "@fontsource-variable/manrope";
+import "./globals.css";
+
+export const metadata: Metadata = {
+  title: "Pranav Katta — Developer & Builder",
+  description: "Computer science student at Georgia State University. Explore my projects, skills, and an interactive keyboard built for curious minds.",
+  icons: { icon: "/favicon.svg", shortcut: "/favicon.svg" },
+};
+export default function RootLayout({ children }: Readonly<{ children: React.ReactNode }>) {
+  return <html lang="en"><body>{children}</body></html>;
+}
