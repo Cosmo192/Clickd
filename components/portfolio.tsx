@@ -10,7 +10,7 @@ import { Tooltip, TooltipContent, TooltipProvider, TooltipTrigger } from "@/comp
 import Keyboard, { type KeyboardApi, type KeyboardTheme } from "@/components/keyboard";
 import { projects, skills } from "@/lib/portfolio-data";
 
-const email = "pranavkatta12344@email.com";
+const email = "pranavkatta12344@gmail.com";
 const themes: KeyboardTheme[] = ["cloud", "blue", "midnight"];
 
 export default function Portfolio() {
